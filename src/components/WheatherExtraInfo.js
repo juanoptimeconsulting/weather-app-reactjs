@@ -5,8 +5,8 @@ const WheatherExtraInfor = ({humidty,wind}) => (
      <b>Extra Information</b><br/><br/>
     <span>{`${humidty} % -  `}</span>       
     <span>{`${wind} viento  `}</span>       
-  
 </div>
+
 
 );
 

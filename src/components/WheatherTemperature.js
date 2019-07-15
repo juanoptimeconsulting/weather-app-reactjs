@@ -1,8 +1,11 @@
 import React from 'react';
+import WeatherIcons  from 'react-weathericons';
 
-const WheatherTemperature = () => (
+//destructuring 
+const WheatherTemperature = ({temperature, weatherstate}) => (
     <div>
-       <span>25°</span>
+        <WeatherIcons name="day-sunny" size="2x"/><br/><br/>
+       <span>{`${temperature} C° ` }</span>
     </div>
     
     );

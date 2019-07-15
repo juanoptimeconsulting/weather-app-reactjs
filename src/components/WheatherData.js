@@ -3,15 +3,16 @@ import WheatherExtraInfo from './WheatherExtraInfo';
 import WheatherTemperature from './WheatherTemperature';
 
 
+
 const WheatherData = () => (
-<di><span>
-<WheatherTemperature/><br/>
+<div><span>
+<WheatherTemperature temperature={20}  weatherstate = {''} /><br/>
 <WheatherExtraInfo humidty={80} wind = {"10 m/s"}/>
 
 
 </span>
 
-</di>
+</div>
 );
 
 export default WheatherData;
