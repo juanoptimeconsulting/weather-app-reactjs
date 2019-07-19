@@ -2,7 +2,7 @@ import React from 'react';
 import WeatherIcons  from 'react-weathericons';
 
 //diccionario
-const icons = {
+const INCONS = {
 
     cloud: "cloud",    
     
@@ -10,7 +10,7 @@ const icons = {
 };
 
 const getWeatherIcon = weatherstate => {
-    const icon = icons[weatherstate];
+    const icon = INCONS[weatherstate];
       console.log(icon);
     if(icon)
     return   <WeatherIcons name={icon} size="2x"/>;
