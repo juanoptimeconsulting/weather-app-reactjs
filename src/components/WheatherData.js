@@ -6,8 +6,10 @@ import WheatherTemperature from './WheatherTemperature';
 
 const WheatherData = () => (
 <div><span>
-<WheatherTemperature temperature={20}  weatherstate = {''} /><br/>
-<WheatherExtraInfo humidty={80} wind = {"10 m/s"}/>
+<WheatherTemperature
+ temperature={20}  weatherstate={'cloud'}
+  /><br/>
+<WheatherExtraInfo humidty={80} wind={"10 m/s"}/>
 
 
 </span>
